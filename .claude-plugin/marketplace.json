@@ -1,10 +1,21 @@
 {
   "name": "plan-to-adr-workflow",
-  "description": "Development planning workflow with ADR support",
+  "owner": {
+    "name": "FacetOfVerity"
+  },
+  "metadata": {
+    "description": "Development planning workflow with ADR support",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "plan-to-adr-workflow",
-      "source": "github:FacetOfVerity/plan-to-adr-workflow"
+      "description": "Create plans from discussions, execute them, archive to ADR",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/plan-to-adr-workflow"
+      ]
     }
   ]
 }
