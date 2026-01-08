@@ -2,4 +2,4 @@
 description: Execute saved plan from docs/plans/
 ---
 
-Execute `/implement-plan` workflow from `skills/plan-to-adr-workflow/SKILL.md`
+Use the `plan-to-adr-workflow` skill to execute the `/implement-plan` workflow.
