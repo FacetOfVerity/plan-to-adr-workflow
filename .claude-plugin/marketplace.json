@@ -1,0 +1,10 @@
+{
+  "name": "plan-to-adr-workflow",
+  "description": "Development planning workflow with ADR support",
+  "plugins": [
+    {
+      "name": "plan-to-adr-workflow",
+      "source": "github:FacetOfVerity/plan-to-adr-workflow"
+    }
+  ]
+}
