@@ -7,7 +7,6 @@
   },
   "license": "MIT",
   "keywords": ["planning", "adr", "workflow", "development"],
-  "category": "productivity",
   "skills": [
     "./skills/plan-to-adr-workflow"
   ],
