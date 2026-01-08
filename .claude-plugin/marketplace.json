@@ -12,10 +12,7 @@
     {
       "name": "plan-to-adr-workflow",
       "description": "Create plans from discussions, execute them, archive to ADR",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/FacetOfVerity/plan-to-adr-workflow.git"
-      }
+      "source": "./package"
     }
   ]
 }
