@@ -1,0 +1,15 @@
+{
+  "name": "plan-to-adr-workflow",
+  "version": "1.0.0",
+  "description": "Development planning workflow with ADR support. Create plans from discussions, execute them, archive to ADR.",
+  "author": {
+    "name": "FacetOfVerity"
+  },
+  "license": "MIT",
+  "keywords": ["planning", "adr", "workflow", "development"],
+  "category": "productivity",
+  "skills": [
+    "./skills/plan-to-adr-workflow"
+  ],
+  "repository": "https://github.com/FacetOfVerity/plan-to-adr-workflow"
+}

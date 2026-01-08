@@ -11,11 +11,8 @@
     {
       "name": "plan-to-adr-workflow",
       "description": "Create plans from discussions, execute them, archive to ADR",
-      "source": "./",
-      "strict": false,
-      "skills": [
-        "./skills/plan-to-adr-workflow"
-      ]
+      "source": "github:FacetOfVerity/plan-to-adr-workflow",
+      "strict": false
     }
   ]
 }
