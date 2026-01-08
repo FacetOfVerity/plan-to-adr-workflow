@@ -1,17 +1,18 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "plan-to-adr-workflow",
-  "version": "1.0.0",
-  "description": "Development planning workflow with ADR support",
   "owner": {
-    "name": "FacetOfVerity"
+    "name": "FacetOfVerity",
+    "url": "https://github.com/FacetOfVerity"
+  },
+  "metadata": {
+    "description": "Development planning workflow",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "plan-to-adr-workflow",
       "description": "Create plans from discussions, execute them, archive to ADR",
-      "source": "github:FacetOfVerity/plan-to-adr-workflow",
-      "category": "productivity"
+      "source": "github:FacetOfVerity/plan-to-adr-workflow"
     }
   ]
 }
