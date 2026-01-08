@@ -18,12 +18,11 @@ Plan Mode → /commit-plan → /implement-plan → ADR
 package/               # Plugin code (isolated to avoid install recursion)
   plugin.json          # Plugin metadata (name, version, description)
   commands/
-    commit-plan.md     # Command definition (delegates to SKILL.md)
-    implement-plan.md  # Command definition (delegates to SKILL.md)
+    commit-plan.md     # Command definition (invokes skill)
+    implement-plan.md  # Command definition (invokes skill)
   skills/
     plan-to-adr-workflow/
-      SKILL.md         # Main workflow logic and instructions
-      TEMPLATE.md      # Plan document template
+      SKILL.md         # Main workflow logic, instructions, and plan template
 ```
 
 ## Commands
@@ -33,8 +32,7 @@ package/               # Plugin code (isolated to avoid install recursion)
 
 ## Key Files
 
-- `package/skills/plan-to-adr-workflow/SKILL.md` - Contains the complete workflow logic for both commands
-- `package/skills/plan-to-adr-workflow/TEMPLATE.md` - Template used when creating new plans
+- `package/skills/plan-to-adr-workflow/SKILL.md` - Contains workflow logic for both commands and the plan template
 
 ## Conventions
 

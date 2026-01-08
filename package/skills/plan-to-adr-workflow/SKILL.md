@@ -16,12 +16,12 @@ Plan Mode → /commit-plan → /implement-plan → ADR
 
 ## Commands
 
-- `/commit-plan` — save plan from discussion
-- `/implement-plan` — execute saved plan
+- `/commit-plan` — triggers Save Plan Workflow
+- `/implement-plan` — triggers Execute Plan Workflow
 
 ---
 
-## /commit-plan — Save Plan
+## Save Plan Workflow
 
 Analyzes current discussion and creates a development plan.
 
@@ -49,7 +49,7 @@ Return to user:
 
 ---
 
-## /implement-plan — Execute Plan
+## Execute Plan Workflow
 
 Executes a saved development plan.
 
