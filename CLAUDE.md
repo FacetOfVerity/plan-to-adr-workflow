@@ -14,15 +14,14 @@ Plan Mode → /commit-plan → /implement-plan → ADR
 
 ```
 .claude-plugin/
-  marketplace.json     # Marketplace metadata, points to ./package
-package/               # Plugin code (isolated to avoid install recursion)
+  marketplace.json     # Marketplace metadata
   plugin.json          # Plugin metadata (name, version, description)
-  commands/
-    commit-plan.md     # Command definition (invokes skill)
-    implement-plan.md  # Command definition (invokes skill)
-  skills/
-    plan-to-adr-workflow/
-      SKILL.md         # Main workflow logic, instructions, and plan template
+commands/
+  commit-plan.md       # Command definition (invokes skill)
+  implement-plan.md    # Command definition (invokes skill)
+skills/
+  plan-to-adr-workflow/
+    SKILL.md           # Main workflow logic, instructions, and plan template
 ```
 
 ## Commands
@@ -32,7 +31,7 @@ package/               # Plugin code (isolated to avoid install recursion)
 
 ## Key Files
 
-- `package/skills/plan-to-adr-workflow/SKILL.md` - Contains workflow logic for both commands and the plan template
+- `skills/plan-to-adr-workflow/SKILL.md` - Contains workflow logic for both commands and the plan template
 
 ## Conventions
 
