@@ -23,8 +23,8 @@ A Claude Code plugin for structured development planning with ADR (Architecture 
 ### Direct
 
 ```
-/plugin marketplace add FacetOfVerity/plan-to-adr-workflow
-/plugin install plan-to-adr-workflow@plan-to-adr-workflow
+/plugin marketplace add FacetOfVerity/facetofverity-marketplace
+/plugin install plan-to-adr-workflow@facetofverity-marketplace
 ```
 
 Verify installation:
